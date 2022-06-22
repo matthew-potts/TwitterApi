@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="CoreTweet" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CoreTweet" Version="1.0.0.483" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Authorisation\Authorisation.csproj" />
+  </ItemGroup>
 </Project>
